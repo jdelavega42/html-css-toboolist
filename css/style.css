@@ -42,15 +42,19 @@ h1{
 /* !MAIN */
 
 main{
-    margin: 4rem auto;
+    margin: 2rem auto;
     width: 80%;
-    padding: 4rem;
+    /* padding: 4rem; */
 }
 
+/* top buttons */
 .container{
- background-color: white;
- margin: .25rem;
- padding: 1em 3rem;
+    background-color: white;
+    margin: .25rem;
+    padding: 1em 3rem;
+}
+.top{
+    border-radius: 1rem 1rem 0 0;
 }
 button{
     padding: 1rem;
@@ -67,6 +71,42 @@ button{
     border-color: #C5CBD0;
     border-style: solid;
     color: #C5CBD0;
-
+    
 }
+/* top buttons */
+
+/* bottom task */
+ul{
+    list-style: none;
+}
+.title::before{
+    content: '\25BC';
+    font-size: 1rem;
+}
+.title{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.task{
+    font-size: 1.5rem;
+}
+.circle{
+    display: inline-block;
+    border-radius: 50%;
+    border: solid 1px;
+    width: 1.5rem;
+    height: 1.5rem;
+    text-align: center;
+    font-size: 1.3rem;
+}
+.check{
+    border-color: green;
+    color: green;
+}
+.cross{
+    border-color: red;
+    color: red;
+}
+/* bottom task */
+
 /* !MAIN */
