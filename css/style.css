@@ -32,8 +32,7 @@ h1{
     vertical-align: middle;
     color: #051931;
     font-size: 6rem;
-    font-weight: bolder;
-
+    font-weight: 900;
 }
 
 /* !HEADING */
@@ -44,7 +43,6 @@ h1{
 main{
     margin: 2rem auto;
     width: 80%;
-    /* padding: 4rem; */
 }
 
 /* top buttons */
@@ -71,7 +69,6 @@ button{
     border-color: #C5CBD0;
     border-style: solid;
     color: #C5CBD0;
-    
 }
 /* top buttons */
 
@@ -79,7 +76,6 @@ button{
 ul{
     list-style: none;
 }
-
 .title::before{
     content: '\25BC';
     font-size: 1rem;
@@ -97,10 +93,10 @@ ul{
     display: inline-block;
     border-radius: 50%;
     border: solid 1px;
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 1.2rem;
+    height: 1.2rem;
     text-align: center;
-    font-size: 1.3rem;
+    font-size: .8rem;
 }
 .check{
     border-color: green;
@@ -111,13 +107,13 @@ ul{
     color: red;
 }
 
+/* box tag */
 .box{
     font-size: 1rem;
     padding: .5rem;
     color: white;
     border-radius: 1rem;
 }
-
 .editorial{
     background-color: #45ABEA;
 }
@@ -136,6 +132,8 @@ ul{
 .sales{
     background-color: #B0C926;
 }
+/* box tag */
+
 /* bottom task */
 
 /* !MAIN */
