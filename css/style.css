@@ -93,10 +93,11 @@ ul{
     display: inline-block;
     border-radius: 50%;
     border: solid 1px;
-    width: 1.2rem;
-    height: 1.2rem;
+    width: 1.5rem;
+    height: 1.5rem;
     text-align: center;
-    font-size: .8rem;
+    font-size: 1rem;
+    vertical-align: middle;
 }
 .check{
     border-color: green;
