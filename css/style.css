@@ -79,6 +79,7 @@ button{
 ul{
     list-style: none;
 }
+
 .title::before{
     content: '\25BC';
     font-size: 1rem;
@@ -86,9 +87,11 @@ ul{
 .title{
     font-size: 2rem;
     font-weight: bolder;
+    margin-top: 2rem
 }
 .task{
     font-size: 1.5rem;
+    margin: 1rem 0 1rem 0;
 }
 .circle{
     display: inline-block;
@@ -106,6 +109,32 @@ ul{
 .cross{
     border-color: red;
     color: red;
+}
+
+.box{
+    font-size: 1rem;
+    padding: .5rem;
+    color: white;
+    border-radius: 1rem;
+}
+
+.editorial{
+    background-color: #45ABEA;
+}
+.goals{
+    background-color: #9C72E4;
+}
+.recruiting{
+    background-color: #64C0A9;
+}
+.mobile{
+    background-color: #F29E33;
+}
+.website{
+    background-color: #D863A1;
+}
+.sales{
+    background-color: #B0C926;
 }
 /* bottom task */
 
