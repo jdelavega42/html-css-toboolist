@@ -12,6 +12,21 @@ body{
     background-color: #F6F8F9;
     font-family: 'Roboto', sans-serif;
 }
+
+/* sections */
+.container{
+    background-color: white;
+    margin: .25rem;
+    padding: 1em 3rem;
+}
+/* buttons */
+button{
+    padding: 1rem;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border: 0;
+}
 /* !COMMON */
 
 
@@ -46,32 +61,21 @@ main{
     width: 80%;
 }
 
-/* top buttons */
-.container{
-    background-color: white;
-    margin: .25rem;
-    padding: 1em 3rem;
-}
+/* navigation */
 .top{
     border-radius: 1rem 1rem 0 0;
 }
-button{
-    padding: 1rem;
-    border-radius: 1rem;
-    font-size: 1.5rem;
-}
 .left{
     background-color: #47ADF1;
-    border: none;
+    border: 1px solid;
     color: white;
 }
 .right{
     background-color: white;
-    border-color: #C5CBD0;
-    border-style: solid;
+    border: 1px solid #C5CBD0;
     color: #C5CBD0;
 }
-/* top buttons */
+/* navigation */
 
 /* bottom task */
 ul{
