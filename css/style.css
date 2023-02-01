@@ -19,7 +19,8 @@ body{
 header{
     background-color: white;
     height: 10rem;
-    padding: 1rem 2rem;  
+    line-height: 10rem; 
+    padding-left: 2rem;
 }
 
 img{
